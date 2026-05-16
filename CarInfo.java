@@ -21,3 +21,10 @@ public class CarInfo{
         c2.display();
     }
 }
+
+
+// Class → Blueprint
+// Object → Instance of class
+// Constructor → Initializes object
+// new keyword → Creates object
+// this keyword → Refers to current object
