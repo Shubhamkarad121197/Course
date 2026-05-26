@@ -11,5 +11,5 @@ for(let i=1;i<arr.length;i++){
         maxNo=arr[i]
     }
 }
-
+console.log(Math.max(...arr))
 console.log(maxNo)
