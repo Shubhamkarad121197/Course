@@ -5,7 +5,11 @@ public class normalException {
         try {
             int ans=18/i;
             System.out.println(ans);
-        } catch (Exception e) {
+        }
+        catch (ArithmeticException e){
+              System.out.println("Dont devide by zero");
+        }
+         catch (Exception e) {
             System.out.println("Something went wrongs");
         }
     }
