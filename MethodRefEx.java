@@ -9,6 +9,8 @@ public class MethodRefEx {
 
 
         System.out.println(uNames);
+        //Method Reference  System.out::println
+        uNames.forEach(System.out::println);
 
     }
 }
