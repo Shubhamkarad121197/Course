@@ -16,7 +16,7 @@ function findVowelsCount(str){
             consonants++;
         }
     }
-    return `vowels:${count}:consonants,${consonants}`;
+    return `vowels:${count}:consonants:${consonants}`;
 }
 
 console.log(findVowelsCount(str));
